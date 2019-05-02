@@ -1,12 +1,46 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+    import React from 'react';
+    import ReactDOM from 'react-dom';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+    ReactDOM.render(
+        <ul>
+            <li>1 - Paulo</li>
+            <li>2 - Maria</li>
+            <li>3 - Ana</li>
+        </ul>
+        ,document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+
+    // //cria a lista não ordenada
+    // const list = document.createElement('ul');
+
+    // //cria a li que será um elemento da lista
+    // let item = document.createElement('li');
+    // //cria um texto que será atrelado ao item (li) da lista
+    // let text = document.createTextNode('1 - Paulo');
+    // //adiciona o texto ao item da lista
+    // item.appendChild(text);
+    // //adiciona o item a lista propriamente dita
+    // list.appendChild(item);
+
+
+    // //cria a li que será um elemento da lista
+    // item = document.createElement('li');
+    // //cria um texto que será atrelado ao item (li) da lista
+    // text = document.createTextNode('2 - Maria');
+    // //adiciona o texto ao item da lista
+    // item.appendChild(text);
+    // //adiciona o item a lista propriamente dita
+    // list.appendChild(item);
+
+    // //cria a li que será um elemento da lista
+    // item = document.createElement('li');
+    // //cria um texto que será atrelado ao item (li) da lista
+    // text = document.createTextNode('3 - Ana ');
+    // //adiciona o texto ao item da lista
+    // item.appendChild(text);
+    // //adiciona o item a lista propriamente dita
+    // list.appendChild(item);
+
+    // const element = document.getElementById('root');
+    // element.appendChild(list);
